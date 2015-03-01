@@ -18,4 +18,4 @@ Features: two columns, responsive, sidebar right, individual menus, featured ima
 **TODO:**
 
 * Translation applied changes on the _s base theme.
-* Include editor stylesheet
+* Include editor stylsheet

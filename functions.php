@@ -59,6 +59,10 @@ function w314a_setup() {
 		'footer'  => __( 'Footer Menu', 'w314a' ),
 	) );
 	
+	/*
+	 * Editor styles.
+	 */
+	add_editor_style( array( 'editor-style.css'));
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -75,9 +79,6 @@ function w314a_setup() {
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'quote', 'link', 'status', 'gallery',
 	) );
-	/* Editor styles. */
-	add_editor_style( get_stylesheet_uri() ); // otherwise create editor-style.css and use this file
-
 
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'w314a_custom_background_args', array(
@@ -90,6 +91,7 @@ function w314a_setup() {
 }
 endif; // w314a_setup
 add_action( 'after_setup_theme', 'w314a_setup' );
+
 
 /**
  * Register widget area.

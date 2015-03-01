@@ -678,3 +678,13 @@ background-color: rgba(0,0,0,0.1);background-position: center center;background-
 .front-page-widget-index .carousel-caption {padding:1em;background-color: rgba(0,0,0,0.2);margin-left:0;width:370px;bottom:40px;left:15%;}
 .front-page-widget-index .carousel-indicators {display: inherit;}
 @media (min-width: 992px) {.featurette-heading {  margin-top: 120px;}}
+
+
+/* wpcf7 - contact form 7 plugin */
+div.wpcf7{background:#f9f9f9;padding:1em;overflow:hidden;margin-bottom:1.5em;}
+div.wpcf7 p{display: block;margin-bottom:1em;}
+div.wpcf7 br{display: none;}
+div.wpcf7 .wpcf7-form-control-wrap{background: #fff;float:right;display:inline;width:66.666%}
+div.wpcf7 input{width:100%;}
+div.wpcf7 textarea{width:100%;}
+div.wpcf7 input[type="submit"]{width:40%;padding:6px 12px;float:right;}
