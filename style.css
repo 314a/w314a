@@ -1,6 +1,6 @@
 /*
 Theme Name: w314a
-Theme URI: https://github.com/314a/w314a
+Theme URI: http://underscores.me/
 Author: 3.14a
 Author URI: http://3.14a.ch
 Description: a simple portfolio / developer theme based on on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc. including bootstrap and font-awesome. Featuring custom widgets to include 'carousel' slider and categorie page entries
@@ -266,6 +266,7 @@ img{max-width:100%;height:inherit;} /*hack for images TODO find proper solutions
 .site-footer{padding: 20px 15px;}
 .site-footer-wrapper div{float:left;position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;}
 
+.content-wrapper{margin-top:20px;}
 .widget-area aside:first-child{margin-top:0;}
 .grid-area{padding-top:30px;padding-bottom:30px;}
 .hero-wrapper ,.hero .entry-content,.hero .entry-footer{padding-left: 15px;padding-right: 15px;margin-left: auto;margin-right: auto;}
